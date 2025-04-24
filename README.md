@@ -71,6 +71,8 @@ Developed by: Register Number*/
       (The path of cshrc could vary depending on the installation destination)
       
 	After this you can see the window like below 
+![WhatsApp Image 2025-04-24 at 1 02 45 PM](https://github.com/user-attachments/assets/440c1dd7-723c-425d-af5d-7f5b1c7ecc2f)
+
 
 ### Fig 3:Invoke the Cadence Environment
 
@@ -83,12 +85,15 @@ or
 •	linux:/> nclaunch& // On subsequent calls to NCVERILOG 
 
 	It will invoke the nclaunch window for functional simulation we can compile,elaborate and simulate it using Multiple Step .
+![WhatsApp Image 2025-04-24 at 1 02 44 PM](https://github.com/user-attachments/assets/c5726742-9513-44dd-a83d-ebe38cdda671)
+
 
 ### Fig 4:Setting Multi-step simulation
 
 	Select Multiple Step and then select “Create cds.lib File” .
 
 	Click the cds.lib file and save the file by clicking on Save option 
+![WhatsApp Image 2025-04-24 at 1 02 43 PM (1)](https://github.com/user-attachments/assets/089dd4f3-e030-4281-81c8-19904c250ec1)
 
 ### Fig 5:cds.lib file Creation
 
@@ -111,6 +116,7 @@ or
 	Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation .
 
 	To perform the function simulation, the following three steps are involved Compilation, Elaboration and Simulation. 
+![WhatsApp Image 2025-04-24 at 1 02 46 PM](https://github.com/user-attachments/assets/fa0d5834-bbc0-4bbc-b34b-6c006fe117bb)
 
 ### Fig 7: Nclaunch Window
 
@@ -153,6 +159,7 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 5.	It also establishes net connectivity and prepares all of this for simulation
    
 	After elaboration the file will come under snapshot. Select the test bench and elaborate it.
+![WhatsApp Image 2025-04-24 at 1 02 44 PM (1)](https://github.com/user-attachments/assets/90ddfb7c-d731-4b56-9e78-78195cd37147)
 
 ### Fig 9: Elaboration Launch Option
 
@@ -166,11 +173,13 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 
 	Steps for simulation – Run the simulation command with simulator options
 
+
 ### Fig 10: Design Browser window for simulation
-
+![WhatsApp Image 2025-04-24 at 1 03 26 PM](https://github.com/user-attachments/assets/1baf95c7-c1ed-413c-893b-915ac5aee33b)
 ### Fig 11: Launching Simulation Waveform WindowSimulation Waveform Window
-
+![WhatsApp Image 2025-04-24 at 1 03 26 PM (1)](https://github.com/user-attachments/assets/ad84b862-d669-4e08-9f1b-7e5729ee93c4)
 ### Fig 12: Simulation Waveform Window
+![WhatsApp Image 2025-04-24 at 1 03 27 PM](https://github.com/user-attachments/assets/625cb004-088c-4eff-8ea4-2366a1d3ae60)
 
 ### Result:
 
